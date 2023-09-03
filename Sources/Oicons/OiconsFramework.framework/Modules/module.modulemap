@@ -1,0 +1,11 @@
+framework module OiconsFramework {
+  umbrella header "OiconsFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module OiconsFramework.Swift {
+  header "OiconsFramework-Swift.h"
+  requires objc
+}
